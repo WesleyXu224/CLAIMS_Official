@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use CLAIMS in your research, please cite the paper below."
+title: "CLAIMS"
+type: software
+repository-code: "https://github.com/WesleyXu224/CLAIMS_Code"
+url: "https://wesleyxu224.github.io/CLAIMS/"
+preferred-citation:
+  type: conference-paper
+  title: "Iterative Closed-Loop Motion Synthesis for Scaling the Capabilities of Humanoid Control"
+  authors:
+    - family-names: "Xu"
+      given-names: "Weisheng"
+    - family-names: "Wu"
+      given-names: "Qiwei"
+    - family-names: "Zhang"
+      given-names: "Jiaxi"
+    - family-names: "Tan"
+      given-names: "Jing"
+    - family-names: "Li"
+      given-names: "Yangfan"
+    - family-names: "Fang"
+      given-names: "Yuetong"
+    - family-names: "Xiong"
+      given-names: "Jiaqi"
+    - family-names: "Wu"
+      given-names: "Kai"
+    - family-names: "Ou"
+      given-names: "Rong"
+    - family-names: "Xu"
+      given-names: "Renjing"
+  booktitle: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+  start: 16398
+  end: 16407
+  year: 2026
+  url: "https://wesleyxu224.github.io/CLAIMS/"

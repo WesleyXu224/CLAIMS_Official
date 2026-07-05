@@ -1,0 +1,27 @@
+providers:
+  gpt4o:
+    api_key_env: "GPT4O_API_KEY"
+    base_url: "https://api2.aigcbest.top/v1"
+    model: "gpt-4o"
+    max_tokens: 3000
+    temperature: 0.0
+  qwen:
+    api_key_env: "QWEN_API_KEY"
+    base_url: "https://api2.aigcbest.top/v1"
+    model: "qwen-vl-max"
+    max_tokens: 3000
+    temperature: 0.0
+
+frame_extraction:
+  total_frames: 15
+  frame_size: [240, 180]
+
+logging:
+  level: "INFO"
+
+metrics_csv: "../PHC/outputs/eval/phc/claims/loop0_prompts_hik_filtered/latest/per_sample_metrics.csv"
+prompt_manifest: "../outputs/prompts/loop0/loop0_prompt_manifest.csv"
+
+output:
+  save_stitched_image: true
+  save_json_only: true
